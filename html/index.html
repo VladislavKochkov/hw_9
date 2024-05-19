@@ -4,290 +4,300 @@
     <meta charset="UTF-8"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beauty</title>
     <link rel="stylesheet" href="../styles/fonts.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Beauty</title>
 </head>
 <body>
+
+/* Header */
+
 <header class="header">
-    <div class="header-top">
-        <div class="container">
-            <div class="header-top__content">
-                <nav>
-                    <ul class="header-top__list">
-                        <li><a href="#">Dellvery</a></li>
-                        <li><a href="#">Payment</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
-                </nav>
+    <div class="header__container">
+        <div class="header__subheader">
+            <nav class="header__nav">
+                <ul class="header__nav-list1">
+                    <li class="header__nav-item"><a href="#">Delivery</a></li>
+                    <li class="header__nav-item"><a href="#">Payment</a></li>
+                    <li class="header__nav-item"><a href="#">Reviews</a></li>
+                    <li class="header__nav-item"><a href="#">FAQ</a></li>
+                    <li class="header__nav-item"><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__secondary">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="../assets/logo.png" alt="Logo" class="header__logo-image">
+                </a>
+            </div>
+            <div class="header__contacts">
+                <p class="phone-number">1 (213) 123-45-67</p>
+                <button class="button button--call-back">Call back</button>
             </div>
         </div>
-    </div>
-    <div class="header-middle">
-        <div class="container">
-            <div class="header-middle__content">
-                <div class="content__logo">
-                    <a href="#">
-                        <img src="./../assets/image/png/Logo.png" alt="logo">
-                    </a>
-                </div>
-                <p class="telephone-number">1 (213) 123-45-67</p>
-                <div class="header-controls">
-                    <button class="btn btn-success">Call back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-bottom">
-        <div class="container">
-            <div class="header-bottom__content">
-                <nav>
-                    <ul class="header-bottom__list">
-                        <li><a href="#">Salon</a></li>
-                        <li><a href="#">Barbershop</a></li>
-                        <li><a href="#">Manicure</a></li>
-                        <li><a href="#">Pedicure</a></li>
-                        <li><a href="#">Massage</a></li>
-                        <li><a href="#">Furniture</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="header__primary">
+            <nav class="header__nav header__nav--primary">
+                <ul class="header__nav-list2">
+                    <li class="header__nav-item"><a href="#">Salon</a></li>
+                    <li class="header__nav-item"><a href="#">Barbershop</a></li>
+                    <li class="header__nav-item"><a href="#">Manicure</a></li>
+                    <li class="header__nav-item"><a href="#">Pedicure</a></li>
+                    <li class="header__nav-item"><a href="#">Massage</a></li>
+                    <li class="header__nav-item"><a href="#">Furniture</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 
+/* Main */
+
 <main>
-    <div class="container__super-chair">
-        <div class="container__content">
-            <h1>Super chair</h1>
-            <p class="chair__description">The text of the action always reflects the</p>
-            <p class="chair__description word-wrap-1"> essence, and not just</p>
-            <p class="chair__description word-wrap-1">chatter, so be careful</p>
-            <button class="btn-more">More</button>
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">Super chair</h1>
+                <p class="hero__text">The text of the action always reflects the essence, and not just
+                    chatter, so be careful</p>
+                <button class="button button--more">More</button>
+            </div>
         </div>
-    </div>
-    <div class="Special--offers">
-        <div class="offers__content">
-            <h2>Special offers</h2>
-            <div class="wrapper">
+    </section>
+    <section class="special-offers">
+        <div class="content-wrapper">
+            <h2 class="title">Special offers</h2>
+            <div class="items-wrapper">
                 <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
-                    </p>
-
-                    <button class="button--buy">Buy</button>
-
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">Hairdressing chair "Norm" hydraulic</p>
+                    <p class="item-price">$300</p>
+                    <button class="button button--cta">Buy</button>
                 </div>
                 <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
-                    </p>
-
-                    <button class="button--buy">Buy</button>
-
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">Hairdressing chair "Norm" hydraulic</p>
+                    <p class="item-price">$300</p>
+                    <button class="button button--cta">Buy</button>
                 </div>
                 <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
-                    </p>
-
-                    <button class="button--buy">Buy</button>
-
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">Hairdressing chair "Norm" hydraulic</p>
+                    <p class="item-price">$300</p>
+                    <button class="button button--cta">Buy</button>
                 </div>
                 <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">
+                        Hairdressing chair "Norm" hydraulic
                     </p>
-                    <button class="button--buy">Buy</button>
+                    <p class="item-price">
+                        $300
+                    </p>
+                    <button class="button button--cta">Buy</button>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bonuses-visit">
-        <div class="container__bonuses">
-            <div class="bonuses__content">
-                <div class="content__title">
-                    <h4>Get bonuses and gifts</h4>
-                    <p class="bonuses--description">Every month we play<br> $1000 for our clients</p>
-                    <form id="email--form">
-                        <label> <input type="email" id="emailInput" placeholder="Enter your e-mail" required></label>
-                    </form>
-                </div>
-                <img src="./../assets/image/png/bonuses.png" alt="bonuses" class="bonuses-image">
-            </div>
-        </div>
-        <div class="visit-container">
-            <div class="visit-content">
-                <div class="visit-title">
-                    <h4>Visit us</h4>
-                    <p class="visit--description">Over 300 stores<br> throughout the USA</p>
-                    <button class="button--store-map">Store map</button>
-                </div>
-                <img src="./../assets/image/png/car.png" alt="car" class="visit--image">
-            </div>
-        </div>
-    </div>
-
-    <div class="content-block">
-        <div class="container">
-            <div class="wrapper--impulse">
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-                <div class="impulse__item">
-                    <img src="./../assets/image/png/impuls.png" alt="impuls">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="Special--offers">
-        <div class="offers__content">
-            <h2 class="oversize">Have you recently viewed</h2>
-            <div class="wrapper">
-                <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price">300$
-                    </p>
-                    <button class="button--buy">Buy</button>
-                </div>
-                <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price">300$
-                    </p>
-                    <button class="button--buy">Buy</button>
-                </div>
-                <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
-                    </p>
-                    <button class="button--buy">Buy</button>
-                </div>
-                <div class="item">
-                    <img class="chair-image" src="./../assets/image/png/chair.png" alt="chair">
-                    <p class="offers--description">Hairdressing chair "Norm"</p>> <p
-                        class="offers--description word-wrap">hydraulic</p>
-                    <p class="price"> 300$
-                    </p>
-                    <button class="button--buy">Buy</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="footer-top">
-            <div class="container">
-                <div class="wrapper__footer-top">
-                    <div class="footer-top-__item">
-                        <h5>Popular</h5><h5 class="footer--line-2 word-wrap-1">categories</h5>
-                        <p class="word-wrap-1">Hozzles</p>
-                        <p class="word-wrap-1"> Tools</p>
-                        <p class="word-wrap-1">Gel polishes</p>
-                        <p class="word-wrap-1">Design</p>
-                        <p class="word-wrap-1">Building</p>
-                        <p class="word-wrap-1">Equipment</p>
+    </section>
+    <section class="promotion">
+        <div class="content-wrapper">
+            <div class="promotion__cards-wrapper">
+                <div class="promotion__card">
+                    <div class="promotion__content">
+                        <p class="promotion__title">
+                            Get bonuses and gifts
+                        </p>
+                        <p class="promotion__subtitle">
+                            Every month we play $1000 for our clients
+                        </p>
+                        <label>
+                            <input type="email" class="input" placeholder="Enter your e-mail">
+                        </label>
                     </div>
-                    <div class="footer-top__item">
-                        <h5>Popular</h5><h5 class="footer--line-2 word-wrap-1">categories</h5>
-                        <p class="word-wrap-1">Hozzles</p>
-                        <p class="word-wrap-1"> Tools</p>
-                        <p class="word-wrap-1">Gel polishes</p>
-                        <p class="word-wrap-1">Design</p>
-                        <p class="word-wrap-1">Building</p>
-                        <p class="word-wrap-1">Equipment</p>
+                    <img src="../assets/e-mail.png" alt="Image of the convert" class="promotion__email-image">
+                </div>
+                <div class="promotion__card">
+                    <div class="promotion__content">
+                        <p class="promotion__title">Visit us</p>
+                        <p class="promotion__subtitle">Over 300 stores throughout the USA</p>
+                        <button class="button button--store-map">Store map</button>
                     </div>
-                    <div class="footer-top__item">
-                        <h5>Popular</h5><h5 class="footer--line-2 word-wrap-1">categories</h5>
-                        <p class="word-wrap-1">Hozzles</p>
-                        <p class="word-wrap-1"> Tools</p>
-                        <p class="word-wrap-1">Gel polishes</p>
-                        <p class="word-wrap-1">Design</p>
-                        <p class="word-wrap-1">Building</p>
-                        <p class="word-wrap-1">Equipment</p>
-                    </div>
-                    <div class="footer-top__item">
-                        <h5>Popular</h5><h5 class="footer--line-2 word-wrap-1">categories</h5>
-                        <p class="word-wrap-1">Hozzles</p>
-                        <p class="word-wrap-1"> Tools</p>
-                        <p class="word-wrap-1">Gel polishes</p>
-                        <p class="word-wrap-1">Design</p>
-                        <p class="word-wrap-1">Building</p>
-                        <p class="word-wrap-1">Equipment</p>
-
-                    </div>
+                    <img src="../assets/delivery.png" alt="Image of the bus" class="promotion__stores-map-image">
                 </div>
             </div>
         </div>
-        <div class="footer--line">
-            <div class="container_footer__line>">
-                <hr class="line">
-                <div class="messenger">
-                    <img src="./../assets/image/png/Youtube.svg" alt="YouTube" class="img--youtube">
-                    <img src="./../assets/image/png/Facebook.svg" alt="Facebook" class="img--facebook">
-                    <img src="./../assets/image/png/Instagram.svg" alt="Instagram" class="img--instagram">
-                    <p class="footer--telephone_number">1 (213) 123-45-67</p>
-                    <div class="footer--controls">
-                        <button class="btn btn-success footer-button">Call back</button>
-                    </div>
+    </section>
+    <section class="brands">
+        <div class="brands__logos">
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+            <div class="brands__logo">
+                <img src="../assets/logo-two.png" alt="Image of the brand logo" class="brands__logo-image">
+            </div>
+        </div>
+    </section>
+    <section class="recently-viewed">
+        <div class="content-wrapper">
+            <h2 class="title">Have you recently viewed</h2>
+            <div class="items-wrapper">
+                <div class="item">
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">
+                        Hairdressing chair "Norm" hydraulic
+                    </p>
+                    <p class="item-price">
+                        $300
+                    </p>
+                    <button class="button button--cta">
+                        Buy
+                    </button>
+                </div>
+                <div class="item">
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">
+                        Hairdressing chair "Norm" hydraulic
+                    </p>
+                    <p class="item-price">
+                        $300
+                    </p>
+                    <button class="button button--cta">Buy</button>
+                </div>
+                <div class="item">
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">
+                        Hairdressing chair "Norm" hydraulic
+                    </p>
+                    <p class="item-price">
+                        $300
+                    </p>
+                    <button class="button button--cta">Buy</button>
+                </div>
+                <div class="item">
+                    <img class="item-image" src="../assets/product-image.png"
+                         alt="Hairdressing chair hydraulic named Norm">
+                    <p class="item-title">
+                        Hairdressing chair "Norm" hydraulic
+                    </p>
+                    <p class="item-price">
+                        $300
+                    </p>
+                    <button class="button button--cta">Buy</button>
                 </div>
             </div>
         </div>
-        <div class="footer--bottom">
-            <div class="container">
-                <div class="footer--text">
-                    <p class="text-1">Best Store (c) 2019 All rights reserved. Online store of equipment for beauty
-                        salons</p>
-                    <p class="text-2">Privacy Policy</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </section>
 </main>
+
+/* Footer */
+
+<footer class="footer">
+    <div class="footer_categories">
+        <div class="footer-category">
+            <p class="footer__title">Popular<br>categories</p>
+            <div class="line"></div>
+            <ul>
+                <li class="footer__nav-item"><a href="#">Hozzles</a></li>
+                <li class="footer__nav-item"><a href="#">Tools</a></li>
+                <li class="footer__nav-item"><a href="#">Get polishes</a></li>
+                <li class="footer__nav-item"><a href="#">Design</a></li>
+                <li class="footer__nav-item"><a href="#">Building</a></li>
+                <li class="footer__nav-item"><a href="#">Equipment</a></li>
+            </ul>
+        </div>
+        <div class="footer-category">
+            <p class="footer__title">Popular<br>categories</p>
+            <div class="line"></div>
+            <ul>
+                <li class="footer__nav-item"><a href="#">Hozzles</a></li>
+                <li class="footer__nav-item"><a href="#">Tools</a></li>
+                <li class="footer__nav-item"><a href="#">Get polishes</a></li>
+                <li class="footer__nav-item"><a href="#">Design</a></li>
+                <li class="footer__nav-item"><a href="#">Building</a></li>
+                <li class="footer__nav-item"><a href="#">Equipment</a></li>
+            </ul>
+        </div>
+        <div class="footer-category">
+            <p class="footer__title">Popular<br>categories</p>
+            <div class="line"></div>
+            <ul>
+                <li class="footer__nav-item"><a href="#">Hozzles</a></li>
+                <li class="footer__nav-item"><a href="#">Tools</a></li>
+                <li class="footer__nav-item"><a href="#">Get polishes</a></li>
+                <li class="footer__nav-item"><a href="#">Design</a></li>
+                <li class="footer__nav-item"><a href="#">Building</a></li>
+                <li class="footer__nav-item"><a href="#">Equipment</a></li>
+            </ul>
+        </div>
+        <div class="footer-category">
+            <p class="footer__title">Popular<br>categories</p>
+            <div class="line"></div>
+            <ul>
+                <li class="footer__nav-item"><a href="#">Hozzles</a></li>
+                <li class="footer__nav-item"><a href="#">Tools</a></li>
+                <li class="footer__nav-item"><a href="#">Get polishes</a></li>
+                <li class="footer__nav-item"><a href="#">Design</a></li>
+                <li class="footer__nav-item"><a href="#">Building</a></li>
+                <li class="footer__nav-item"><a href="#">Equipment</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__contacts">
+        <div class="icons">
+            <img src="../assets/Youtube.svg" alt="Youtube logo" class="youtube-logo"><a href="#"></a>
+            <img src="../assets/Facebook.svg" alt="Facebook logo" class="facebook-logo"><a href="#"></a>
+            <img src="../assets/Instagram.svg" alt="Instagram logo" class="instagram-logo"><a href="#"></a>
+        </div>
+        <div class="contact-info">
+            <p class="phone-number">1 (213) 123-45-67</p>
+            <button class="button button--call-back">Callback</button>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <div class="footer__copyright-info">
+            <p class="footer__copyright-text">Best Store (c) 2019 All rights reserved. Online store of equipment for
+                beauty salons</p>
+            <a class="footer__privacy-policy" href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
